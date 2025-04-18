@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+body{
+    background-color: hsl(177, 38%, 29%);
+    color: white;
+    font-family:'Gilroy-Regular', sans-serif;
+}
+.main{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* transform: translate(-50%,-50%); */
+
+}
+
+.title{
+    font-size: 30px; 
+    font-weight: bold;
+
+}
+
+.move-icon{
+    height: 50px;
+}
+
+.move-button{
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.score{
+    margin-top: 60px;
+}
+
+.reset-score-button{
+    background-color:#a53131;
+    color: #ffffff;
+    border: solid rgb(131, 6, 6);
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+.auto-play-button{
+    background-color:#70be51;
+    color: #ffffff;
+    border: solid rgb(2, 107, 28);
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 50px;
+}   
